@@ -1,0 +1,30 @@
+.header-nav {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--main-white);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.nav-image {
+  width: 200px;
+}
+
+.nav-list {
+  display: flex;
+  align-self: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: var(--main-black);
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.nav-list li a:hover {
+  color: #136BB2;
+}

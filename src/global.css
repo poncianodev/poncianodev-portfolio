@@ -1,0 +1,25 @@
+:root {
+  --main-white: #fafafa;
+  --main-black: #333;
+  --main-blue: #0d80cc;
+  --secondary-blue: #0A3C7D;   
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
