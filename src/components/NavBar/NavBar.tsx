@@ -11,7 +11,7 @@ export function NavBar() {
           alt="Logo Poncianodev"
         />
 
-        <ul className={styles["nav-list"]}>
+        <ul className={styles['nav-list']}>
           <li>
             <a href="/">Início</a>
           </li>
